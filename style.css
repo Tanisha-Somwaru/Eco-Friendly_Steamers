@@ -1,0 +1,106 @@
+
+body {
+  /* background-color: yellow; */
+  margin: 0;
+  background-image: url("img/RoomWithRug.png");
+}
+
+header {
+  /* background-color: red; */
+  height: 100px;
+}
+
+img {
+  /* background-color: pink; */
+  height: 60px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+ 
+.nav ul {
+  /* background-color: purple; */
+  background-color: rgb(95, 208, 104);
+  list-style: none;
+  margin: 0;
+  padding: 20px 0 0 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav li {
+  /* background-color: blue; */
+  display: inline-block;
+  padding: 20px;
+  margin: 0 10px;
+}
+ 
+.nav a {
+  /* background-color: orange; */
+  text-decoration: none;
+  color: white;
+}
+
+section {
+  width: 840px;
+  margin: 50px auto 0 auto;
+}
+
+.section-box {
+  display: inline-block;
+  width: 400px;
+  height: 300px;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+#quote-offer-container {
+  background-color: rgb(242, 241, 235);
+  text-align: center;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+#quote-form-container {
+  padding: 20px;
+  margin-top: 30px;
+  height: 200px;
+}
+
+#quote-form {
+  text-align: center;
+  background-color: rgb(242, 241, 235);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.form-field {
+  margin-bottom: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 15px
+}
+
+button {
+  border: none;
+  height: 40px;
+  width:  80px;
+  background-color: rgb(95, 208, 104);
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  font-size: 28px;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+
+::placeholder {
+  font-family: 'Montserrat', sans-serif;
+}
